@@ -1,0 +1,112 @@
+[
+  [
+    "hook",
+    "ये नौ लड्डू देखो। एक में डबल खोया है। सिर्फ़ दो बार तौलकर बता सकते हो, कौन सा?",
+    "Ye nau laddoo dekho. Ek mein double khoya hai. Sirf do baar taulkar bata sakte ho, kaun sa?",
+    "Kismein hai",
+    "double khoya?",
+    1.01,
+    0.09,
+    "curious",
+    "Show Chanda and her apprentice at the counter with the full tray of nine sweets."
+  ],
+  [
+    "rules",
+    "चंदा ने मिठाई का डिब्बा खोला। सब एक जैसे दिखते हैं, पर एक लड्डू भारी है।",
+    "Chanda ne mithai ka dibba khola. Sab ek jaise dikhte hain, par ek laddoo bhaari hai.",
+    "Sirf ek",
+    "zyada bhaari.",
+    1.01,
+    0.11,
+    "confiding",
+    "Cut closer to the apprentice inspecting the nine equal-size sweets."
+  ],
+  [
+    "limit",
+    "अमन, तराज़ू ले आओ। बस दो बार तौलना है!",
+    "Aman, taraazu le aao. Bas do baar taulna hai!",
+    "Sirf do baar",
+    "taul sakte ho.",
+    1.01,
+    0.14,
+    "challenge",
+    "Introduce the physical balance between both actors and let its beam settle."
+  ],
+  [
+    "choose",
+    "पहली चाल तुम्हारी! एक के सामने एक? तीन के सामने तीन? या चार के सामने चार?",
+    "Pehli chaal tumhari! Ek ke saamne ek? Teen ke saamne teen? Ya chaar ke saamne chaar?",
+    "Pehli chaal",
+    "kya hogi?",
+    1.01,
+    1.0,
+    "inviting",
+    "Hold the two-shot and display the three first-move choices beneath the counter."
+  ],
+  [
+    "move",
+    "तीन इधर, तीन उधर। बाकी तीन बाहर रखो।",
+    "Teen idhar, teen udhar. Baaki teen bahar rakho.",
+    "Teen idhar.",
+    "Teen udhar.",
+    1.01,
+    0.12,
+    "confident",
+    "Chanda loads the left trio. The apprentice loads the right trio, leveling the beam."
+  ],
+  [
+    "balance",
+    "अरे! दोनों पलड़े बराबर! तो भारी लड्डू कहाँ है? बाहर वाले तीन में!",
+    "Arre! Dono palde barabar! Toh bhaari laddoo kahaan hai? Bahar waale teen mein!",
+    "Barabar?",
+    "Bahar dekho!",
+    1.01,
+    0.12,
+    "surprise",
+    "Let the apprentice react to the tie and look toward the three sweets remaining below."
+  ],
+  [
+    "last",
+    "आख़िरी चाल! सात और आठ को तौलो। नौ को वहीं छोड़ दो।",
+    "Aakhri chaal! Saat aur aath ko taulo. Nau ko wahin chhod do.",
+    "Saat ya aath?",
+    "Aakhri taul.",
+    1.01,
+    0.13,
+    "anticipation",
+    "Both characters place 7 and 8 on opposite pans. Keep 9 on the counter."
+  ],
+  [
+    "guess",
+    "फिर बराबर! अब बोलो, डबल खोया किसमें है?",
+    "Phir barabar! Ab bolo, double khoya kismein hai?",
+    "Phir barabar!",
+    "Ab batao?",
+    1.01,
+    0.85,
+    "playful",
+    "Hold the two-shot with equal pans and the three answer choices."
+  ],
+  [
+    "reveal",
+    "नौ नंबर में! सात और आठ बराबर। बचा कौन? सिर्फ़ नौ!",
+    "Nau number mein! Saat aur aath barabar. Bacha kaun? Sirf nau!",
+    "Nau number",
+    "pakda gaya!",
+    1.01,
+    0.12,
+    "delighted",
+    "Lift number nine between the two actors and separate the halves to show the khoya."
+  ],
+  [
+    "tag",
+    "और मज़ा देखो! जिस लड्डू को पकड़ा, उसे तौला ही नहीं!",
+    "Aur maza dekho! Jis laddoo ko pakda, use taula hi nahin!",
+    "Bina taule",
+    "pakad liya!",
+    1.01,
+    0.38,
+    "amused",
+    "Hold the filling in view while the apprentice smiles."
+  ]
+]

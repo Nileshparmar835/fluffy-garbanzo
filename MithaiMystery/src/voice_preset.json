@@ -1,0 +1,9 @@
+{
+  "name": "Voice A",
+  "voice": "hf_beta",
+  "language": "hi",
+  "speed": 1.01,
+  "filter": "highpass=f=65",
+  "audition_text": "ये नौ लड्डू देखो। एक में डबल खोया है। सिर्फ़ दो बार तौलकर बता सकते हो, कौन सा?",
+  "reference_file": "assets/voice_A.wav"
+}

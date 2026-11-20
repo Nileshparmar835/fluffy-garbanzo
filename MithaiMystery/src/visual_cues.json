@@ -1,0 +1,528 @@
+{
+  "hook": {
+    "actions": [
+      {
+        "id": "nine",
+        "word": "नौ",
+        "occurrence": 1,
+        "action": "Count of nine appears."
+      },
+      {
+        "id": "sweets",
+        "word": "लड्डू",
+        "occurrence": 1,
+        "action": "Nine numbered sweets pop onto the brass tray in a fast cascade."
+      },
+      {
+        "id": "filling",
+        "word": "डबल",
+        "occurrence": 1,
+        "action": "Cutaway of double khoya replaces the count."
+      },
+      {
+        "id": "turns",
+        "word": "दो",
+        "occurrence": 1,
+        "action": "Two weighing tokens appear."
+      },
+      {
+        "id": "question",
+        "word": "कौन",
+        "occurrence": 1,
+        "action": "Cutaway turns into an unresolved question."
+      }
+    ],
+    "titles": [
+      {
+        "after": null,
+        "top": "YE DEKHO…",
+        "bottom": ""
+      },
+      {
+        "after": "nine",
+        "top": "YE DEKHO…",
+        "bottom": "9 LADDOO!"
+      },
+      {
+        "after": "filling",
+        "top": "EK MEIN HAI",
+        "bottom": "DOUBLE KHOYA!"
+      },
+      {
+        "after": "turns",
+        "top": "TAUL SAKTE HO",
+        "bottom": "SIRF 2 BAAR!"
+      },
+      {
+        "after": "question",
+        "top": "BATAO,",
+        "bottom": "KAUN SA?"
+      }
+    ]
+  },
+  "rules": {
+    "actions": [
+      {
+        "id": "chanda",
+        "word": "चंदा",
+        "occurrence": 1,
+        "action": "Chanda enters from behind the counter."
+      },
+      {
+        "id": "box",
+        "word": "डिब्बा",
+        "occurrence": 1,
+        "action": "A decorated sweet box slides onto the worktop."
+      },
+      {
+        "id": "open",
+        "word": "खोला",
+        "occurrence": 1,
+        "action": "Chanda lifts the hinged lid, exposing nine sweets."
+      },
+      {
+        "id": "same",
+        "word": "जैसे",
+        "occurrence": 1,
+        "action": "Three columns of identical sweets glint in sequence."
+      },
+      {
+        "id": "heavy",
+        "word": "भारी",
+        "occurrence": 1,
+        "action": "Show a weight as a clue beside the box."
+      }
+    ],
+    "titles": [
+      {
+        "after": null,
+        "top": "",
+        "bottom": ""
+      },
+      {
+        "after": "chanda",
+        "top": "CHANDA",
+        "bottom": "MITHAIWALI"
+      },
+      {
+        "after": "box",
+        "top": "MITHAI KA",
+        "bottom": "DIBBA"
+      },
+      {
+        "after": "open",
+        "top": "DIBBA",
+        "bottom": "KHULA!"
+      },
+      {
+        "after": "same",
+        "top": "DIKHTE SAB",
+        "bottom": "EK JAISE!"
+      },
+      {
+        "after": "heavy",
+        "top": "EK LADDOO",
+        "bottom": "BHAARI HAI!"
+      }
+    ]
+  },
+  "limit": {
+    "actions": [
+      {
+        "id": "aman",
+        "word": "अमन",
+        "occurrence": 1,
+        "action": "Aman leans in from the right."
+      },
+      {
+        "id": "scale",
+        "word": "तराज़ू",
+        "occurrence": 1,
+        "action": "Aman brings the physical balance onto the counter."
+      },
+      {
+        "id": "two",
+        "word": "दो",
+        "occurrence": 1,
+        "action": "Two brass weighing tokens land below the balance."
+      }
+    ],
+    "titles": [
+      {
+        "after": null,
+        "top": "",
+        "bottom": ""
+      },
+      {
+        "after": "aman",
+        "top": "AMAN!",
+        "bottom": ""
+      },
+      {
+        "after": "scale",
+        "top": "TARAAZU",
+        "bottom": "LE AAO!"
+      },
+      {
+        "after": "two",
+        "top": "SIRF DO BAAR",
+        "bottom": "TAULNA HAI!"
+      }
+    ]
+  },
+  "choose": {
+    "actions": [
+      {
+        "id": "invite",
+        "word": "तुम्हारी",
+        "occurrence": 1,
+        "action": "Chanda turns to the viewer."
+      },
+      {
+        "id": "a",
+        "word": "एक",
+        "occurrence": 1,
+        "action": "First illustrated option slides into place."
+      },
+      {
+        "id": "b",
+        "word": "तीन",
+        "occurrence": 1,
+        "action": "Second illustrated option slides into place."
+      },
+      {
+        "id": "c",
+        "word": "चार",
+        "occurrence": 1,
+        "action": "Third illustrated option slides into place."
+      }
+    ],
+    "titles": [
+      {
+        "after": null,
+        "top": "PEHLI CHAAL…",
+        "bottom": ""
+      },
+      {
+        "after": "invite",
+        "top": "PEHLI CHAAL",
+        "bottom": "TUMHARI!"
+      }
+    ]
+  },
+  "move": {
+    "actions": [
+      {
+        "id": "left",
+        "word": "तीन",
+        "occurrence": 1,
+        "action": "Left trio starts lifting."
+      },
+      {
+        "id": "left_land",
+        "word": "इधर",
+        "occurrence": 1,
+        "action": "Left trio meets the left pan."
+      },
+      {
+        "id": "right",
+        "word": "तीन",
+        "occurrence": 2,
+        "action": "Right trio starts lifting."
+      },
+      {
+        "id": "right_land",
+        "word": "उधर",
+        "occurrence": 1,
+        "action": "Right trio meets the right pan."
+      },
+      {
+        "id": "outside",
+        "word": "बाहर",
+        "occurrence": 1,
+        "action": "A bracket tracks the unweighed sweets."
+      }
+    ],
+    "titles": [
+      {
+        "after": null,
+        "top": "",
+        "bottom": ""
+      },
+      {
+        "after": "left",
+        "top": "PEHLI TAUL",
+        "bottom": "TEEN IDHAR"
+      },
+      {
+        "after": "right",
+        "top": "TEEN IDHAR",
+        "bottom": "TEEN UDHAR"
+      },
+      {
+        "after": "outside",
+        "top": "BAAKI TEEN",
+        "bottom": "BAHAR!"
+      }
+    ]
+  },
+  "balance": {
+    "actions": [
+      {
+        "id": "pans",
+        "word": "पलड़े",
+        "occurrence": 1,
+        "action": "Beam rocks after loading."
+      },
+      {
+        "id": "level",
+        "word": "बराबर",
+        "occurrence": 1,
+        "action": "Beam settles and an equals mark appears at its pivot."
+      },
+      {
+        "id": "outside",
+        "word": "बाहर",
+        "occurrence": 1,
+        "action": "Guide the eye from the beam to the three outside."
+      }
+    ],
+    "titles": [
+      {
+        "after": null,
+        "top": "ARRE…",
+        "bottom": ""
+      },
+      {
+        "after": "pans",
+        "top": "DONO PALDE…",
+        "bottom": ""
+      },
+      {
+        "after": "level",
+        "top": "DONO PALDE",
+        "bottom": "BARABAR!"
+      },
+      {
+        "after": "outside",
+        "top": "BAHAR WALE",
+        "bottom": "TEEN MEIN!"
+      }
+    ]
+  },
+  "last": {
+    "actions": [
+      {
+        "id": "seven",
+        "word": "सात",
+        "occurrence": 1,
+        "action": "Seven travels to the left pan."
+      },
+      {
+        "id": "eight",
+        "word": "आठ",
+        "occurrence": 1,
+        "action": "Eight travels to the right pan."
+      },
+      {
+        "id": "weigh",
+        "word": "तौलो",
+        "occurrence": 1,
+        "action": "Second load settles on the right pan."
+      },
+      {
+        "id": "nine",
+        "word": "नौ",
+        "occurrence": 1,
+        "action": "A small ring singles out the sweet left on the tray."
+      }
+    ],
+    "titles": [
+      {
+        "after": null,
+        "top": "AAKHRI CHAAL!",
+        "bottom": ""
+      },
+      {
+        "after": "seven",
+        "top": "SAAT…",
+        "bottom": ""
+      },
+      {
+        "after": "eight",
+        "top": "SAAT AUR AATH",
+        "bottom": "KO TAULO"
+      },
+      {
+        "after": "nine",
+        "top": "NAU KO",
+        "bottom": "WAHIN CHHODO"
+      }
+    ]
+  },
+  "guess": {
+    "actions": [
+      {
+        "id": "level",
+        "word": "बराबर",
+        "occurrence": 1,
+        "action": "Both pans stop rocking. The equals mark appears."
+      },
+      {
+        "id": "vote",
+        "word": "बोलो",
+        "occurrence": 1,
+        "action": "Number choices appear for the viewer."
+      },
+      {
+        "id": "which",
+        "word": "किसमें",
+        "occurrence": 1,
+        "action": "A question mark lands above the options."
+      }
+    ],
+    "titles": [
+      {
+        "after": null,
+        "top": "PHIR…",
+        "bottom": ""
+      },
+      {
+        "after": "level",
+        "top": "PHIR",
+        "bottom": "BARABAR!"
+      },
+      {
+        "after": "vote",
+        "top": "AB BOLO…",
+        "bottom": ""
+      },
+      {
+        "after": "which",
+        "top": "DOUBLE KHOYA",
+        "bottom": "KISMEIN?"
+      }
+    ]
+  },
+  "reveal": {
+    "actions": [
+      {
+        "id": "winner",
+        "word": "नौ",
+        "occurrence": 1,
+        "action": "Nine rises and splits open to reveal the filling."
+      },
+      {
+        "id": "seven",
+        "word": "सात",
+        "occurrence": 1,
+        "action": "Show seven in the visual proof."
+      },
+      {
+        "id": "eight",
+        "word": "आठ",
+        "occurrence": 1,
+        "action": "Show eight beside seven."
+      },
+      {
+        "id": "equal",
+        "word": "बराबर",
+        "occurrence": 1,
+        "action": "Insert the equals sign."
+      },
+      {
+        "id": "answer",
+        "word": "नौ",
+        "occurrence": 2,
+        "action": "Stamp the winning number."
+      }
+    ],
+    "titles": [
+      {
+        "after": null,
+        "top": "",
+        "bottom": ""
+      },
+      {
+        "after": "winner",
+        "top": "SAHI JAWAAB",
+        "bottom": "NUMBER 9!"
+      },
+      {
+        "after": "seven",
+        "top": "SAAT…",
+        "bottom": ""
+      },
+      {
+        "after": "eight",
+        "top": "SAAT AUR AATH…",
+        "bottom": ""
+      },
+      {
+        "after": "equal",
+        "top": "SAAT AUR AATH",
+        "bottom": "BARABAR!"
+      },
+      {
+        "after": "answer",
+        "top": "BACHA SIRF",
+        "bottom": "NAU!"
+      }
+    ]
+  },
+  "tag": {
+    "actions": [
+      {
+        "id": "sweet",
+        "word": "लड्डू",
+        "occurrence": 1,
+        "action": "Emphasize the cut sweet."
+      },
+      {
+        "id": "caught",
+        "word": "पकड़ा",
+        "occurrence": 1,
+        "action": "Both hands give it a small lift."
+      },
+      {
+        "id": "weigh",
+        "word": "तौला",
+        "occurrence": 1,
+        "action": "Bring in a weighing icon."
+      },
+      {
+        "id": "never",
+        "word": "नहीं",
+        "occurrence": 1,
+        "action": "Cross the weighing icon and land the callback."
+      }
+    ],
+    "titles": [
+      {
+        "after": null,
+        "top": "AUR MAZA DEKHO…",
+        "bottom": ""
+      },
+      {
+        "after": "sweet",
+        "top": "JIS LADDOO KO",
+        "bottom": ""
+      },
+      {
+        "after": "caught",
+        "top": "JIS LADDOO KO",
+        "bottom": "PAKDA…"
+      },
+      {
+        "after": "weigh",
+        "top": "USE TAULA…",
+        "bottom": ""
+      },
+      {
+        "after": "never",
+        "top": "USE TAULA",
+        "bottom": "HI NAHIN!"
+      }
+    ]
+  }
+}
